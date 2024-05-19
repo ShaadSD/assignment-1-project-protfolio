@@ -1,0 +1,82 @@
+body{
+    background-color: #1A1A1A;
+}
+.banner
+{
+    font-size: 45px;
+    color: #00FFFF
+}
+.txt-para{
+    color:#FFFFFF;
+}
+
+.nav-color
+{
+    color: #FFFFFF !important;
+    transition: ease-in-out .3s;
+}
+.nav-color:hover
+{
+    color: white !important;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+
+
+.resume
+{
+    background-color: #0DCAF0;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    transition: ease-in-out .3s;
+    text-decoration: none;
+    font-weight: 600;
+
+
+    
+}
+
+.txt
+{
+    color: #fdfcff;
+    font-size: 43px;
+    margin-top: 100px;
+}
+
+
+.text-off
+{
+    background-color: #6C757D;
+    color: white;
+    border: 1px solid #6C757D;
+    transition: ease-in-out .3s;
+
+}
+.text-off:hover
+{
+    background-color: transparent;
+    color: #6C757D !important;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+.slider-container {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
+  
+  .slider-item {
+    width: 100%; /* Ensure slides take full width */
+    float: left; /* Arrange slides side-by-side */
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  .slider-item.active {
+    transform: translateX(0); /* Show the active slide */
+  }
+  
+  .slider-item:not(.active) {
+    transform: translateX(100%); /* Hide other slides off-screen */
+  }
